@@ -7,7 +7,8 @@ public class ItemCardapio {
 	private int valor;
 
 	//construtor da classe:
-	public ItemCardapio(int valor) {
+	public ItemCardapio(int valor, Lanche lanche) {
+		this.valor = valor;
 		this.lanche = lanche;
 	}
 

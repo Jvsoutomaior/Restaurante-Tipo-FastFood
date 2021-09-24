@@ -1,5 +1,4 @@
 package model;
-import java.util.Date;
 
 public class Funcionario {
 	
@@ -7,14 +6,14 @@ public class Funcionario {
 	private String cpf;
 	private String email;
 	private String telefoneFuncionario;
-	private Date bornDate;
+	private String bornDate;
 	private int workHour;
 	private String cargo;
 	private int salario;
-	private Date contractDate;
+	private String contractDate;
 
 	//construtor da classe
-	public Funcionario(String nomeFuncionario, String cpf, String email, String telefoneFuncionario, Date bornDate, int workHour, String cargo, int salario, Date contractDate) {
+	public Funcionario(String nomeFuncionario, String cpf, String email, String telefoneFuncionario, String bornDate, int workHour, String cargo, int salario, String contractDate) {
 		this.nomeFuncionario = nomeFuncionario;
 		this.cpf = cpf;
 		this.email = email;
@@ -28,7 +27,7 @@ public class Funcionario {
 
 	//getters e setters:
 	public String getNomeFuncionario() {
-		return nomeFuncionario;
+		return nomeFuncionario; 
 	}
 
 	public void setNomeFuncionario(String nomeFuncionario) {
@@ -59,11 +58,11 @@ public class Funcionario {
 		this.telefoneFuncionario = telefoneFuncionario;
 	}
 
-	public Date getBornDate() {
+	public String getBornDate() {
 		return bornDate;
 	}
 
-	public void setBornDate(Date bornDate) {
+	public void setBornDate(String bornDate) {
 		this.bornDate = bornDate;
 	}
 
@@ -91,11 +90,11 @@ public class Funcionario {
 		this.salario = salario;
 	}
 
-	public Date getContractDate() {
+	public String getContractDate() {
 		return contractDate;
 	}
 
-	public void setContractDate(Date contractDate) {
+	public void setContractDate(String contractDate) {
 		this.contractDate = contractDate;
 	}
 

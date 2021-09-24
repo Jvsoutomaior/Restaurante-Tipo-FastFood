@@ -6,12 +6,12 @@ public class Venda {
 	private ItemCardapio itemCardapio;
 	
 	private char id;
-	private Date transactionDate;
+	private String transactionDate;
 	private int valorTotal;
 	private String formaPagamento;
 
 	//construtor da classe:
-	public Venda(char id, Date transactionDate, int valorTotal, String formaPagamento) {
+	public Venda(char id, String transactionDate, int valorTotal, String formaPagamento) {
 		this.id = id;
 		this.transactionDate = transactionDate;
 		this.valorTotal = valorTotal;
@@ -36,11 +36,11 @@ public class Venda {
 		this.id = id;
 	}
 
-	public Date getTransactionDate() {
+	public String getTransactionDate() {
 		return transactionDate;
 	}
 
-	public void setTransactionDate(Date transactionDate) {
+	public void setTransactionDate(String transactionDate) {
 		this.transactionDate = transactionDate;
 	}
 
