@@ -10,7 +10,7 @@ public class Funcionario {
 	private int workHour;
 	private String cargo;
 	private int salario;
-	private String contractDate;
+	private String contractDate;	
 
 	//construtor da classe
 	public Funcionario(String nomeFuncionario, String cpf, String email, String telefoneFuncionario, String bornDate, int workHour, String cargo, int salario, String contractDate) {
